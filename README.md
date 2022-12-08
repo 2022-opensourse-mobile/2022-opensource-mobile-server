@@ -7,9 +7,13 @@
   - 사용 언어: node.js      
   - 서버 동작 예시:     
   
-![server sequence diagram 1](https://user-images.githubusercontent.com/102962030/206417788-62545f7f-7c42-4a17-8284-ee59e8cea829.png)
-![server sequence diagram 3](https://user-images.githubusercontent.com/102962030/206436861-c25b5d69-dfa8-4f23-9153-60cb4ee9c503.png)
+<div align="center">  
+  
+![server sequence diagram 1](https://user-images.githubusercontent.com/102962030/206472813-09a76a06-a58b-4bd2-8921-357661db0c51.png)
+![server sequence diagram 2](https://user-images.githubusercontent.com/102962030/206472820-98665e88-e400-4468-bec2-8aa6faf87fcc.png)
+   
 
+</div>  
 
   
   - 코드 요약: 
