@@ -5,7 +5,7 @@
 
   - 목적: 각종 로그인 서버와 통신 
   - 사용 언어: node.js      
-  - 서버 동작:     
+  - 서버 동작 예시:     
   
 ![server sequence diagram 1](https://user-images.githubusercontent.com/102962030/206417788-62545f7f-7c42-4a17-8284-ee59e8cea829.png)
 ![server sequence diagram 3](https://user-images.githubusercontent.com/102962030/206436861-c25b5d69-dfa8-4f23-9153-60cb4ee9c503.png)
