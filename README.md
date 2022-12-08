@@ -11,7 +11,6 @@
 ![server sequence diagram 3](https://user-images.githubusercontent.com/102962030/206436861-c25b5d69-dfa8-4f23-9153-60cb4ee9c503.png)
 
 
-  이후 발급받은 토큰으로 로그인 진행
   
   - 코드 요약: 
     - /kakao: 로그인한 사용자 정보를 받고 카카오서버에 토큰요청을 보내고 토큰을 발급받아 response로 보냄
