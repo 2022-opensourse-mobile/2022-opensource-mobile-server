@@ -20,33 +20,6 @@ function requestMe(naverAccessToken,callback) {
 }
 
 
-function updateOrCreateUser(userId, email, displayName, photoURL) {
-  console.log('updating or creating a firebase user');
-  const updateParams = {
-    provider: 'NAVER',
-    displayName: displayName,
-  };
-  if (displayName) {
-    updateParams['displayName'] = displayName;
-  } else {
-    updateParams['displayName'] = email;
-  }
-  if (photoURL) {
-    updateParams['photoURL'] = photoURL;
-  }
-  console.log(updateParams);
-  return admin.auth().updateUser(userId, updateParams).then(function(userRecord) {
-    // See the UserRecord reference doc for the contents of `userRecord`.
-    console.log("Successfully updated user", userRecord.toJSON());
-    userRecord['uid'] = userId;
-    if (email) {
-      userRecord['email'] = email;
-    }
-    return admin.auth().createUser(userRecord);
-  });
-}
-
-
 function createFirebaseToken(naverAccessToken,callback) {
 
   Async.waterfall([
